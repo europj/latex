@@ -1,47 +1,48 @@
-%===========================================================================
+%===============================================================================
 %
 % LI GROUP LATEX TEMPLATE FOR ACS JOURNAL SUBMISSION
-% Updated: Oct 31, 2013 by JW May
+% Updated: Nov 14, 2013 by JW May
 % Created: Oct 2, 2012 by JW May
 %
-%===========================================================================
+%===============================================================================
 
-%------------------------------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 % PREAMBLE AND DOCUMENT FORMATTING
-%------------------------------------------------------------------------------------------------------------------------
-% The documentclass options and setkeys command enable the printing of the entire
-% author list for citations; this is especially useful for printing the entire Gaussian author list.
+%-------------------------------------------------------------------------------
+% The documentclass options and setkeys command enable the printing of the
+% entire author list for citations; this is especially useful for printing the
+% entire Gaussian author list.
 %
-% For a list of journal types for the journal option below, see the table at the end of this
-% document.
-%------------------------------------------------------------------------------------------------------------------------
+% For a list of journal types for the journal option below, see the table at
+% the end of this document.
+%-------------------------------------------------------------------------------
 \documentclass[english,journal=jctcce,etalmode=truncate,maxauthors=0]{achemso}
 \setkeys{acs}{etalmode=truncate,maxauthors=0}
 
 % PACKAGES
-\usepackage{amsmath}			% for equation typesetting
-\usepackage{amssymb}			% for equation typesetting
-\usepackage{wasysym}			% for geometric shapes
-\usepackage{color}				% for colored fonts
-\usepackage{setspace}			% for 1.5 and double spacing
-\usepackage{graphicx}			% main graphics package
-\usepackage{wrapfig}				% allow text wrapping around figures
-\usepackage[dvipsnames]{xcolor}	% for inserting colored text
-%\usepackage{times}				% uncomment to use Times New Roman font
-\usepackage[user=XXX]{trkchg}		% provides commands for tracking changes in the compiled document
-\usepackage{array,booktabs}		% for formatting the journal option table at the end of this document
+\usepackage{amsmath}             % for equation typesetting
+\usepackage{amssymb}             % for equation typesetting
+\usepackage{wasysym}             % for geometric shapes
+\usepackage{color}               % for colored fonts
+\usepackage{setspace}            % for 1.5 and double spacing
+\usepackage{graphicx}            % main graphics package
+\usepackage{wrapfig}             % allow text wrapping around figures
+\usepackage[dvipsnames]{xcolor}  % for inserting colored text
+%\usepackage{times}              % uncomment to use Times New Roman font
+\usepackage[user=XXX]{trkchg}    % provides commands for tracking changes in the compiled document
+\usepackage{array,booktabs}      % for formatting the journal option table at the end of this document
 
 % ACHEMSO PACKAGE FORMATTING OPTIONS
-\SectionNumbersOff				% turn off section numbering
-%\SectionsOff					% turn off section headers
-%\AbstractOff					% turn off display of abstract
+\SectionNumbersOff    % turn off section numbering
+%\SectionsOff         % turn off section headers
+%\AbstractOff         % turn off display of abstract
 
 % CAPTION FORMATTING
-\usepackage[font=footnotesize,labelfont=bf,labelsep=period,width=0.75\textwidth]{caption} 	% format single-image captions and table titles
-\usepackage[font=footnotesize,labelfont=bf,labelsep=period]{subcaption} 					% format subfigure captions
-\DeclareCaptionSubType*[arabic]{figure} 									% use arabic numerals for subfigure captions (e.g., 1.1, 1.2, etc.)
-\DeclareCaptionLabelFormat{subfiglabel}{Figure #2} 							% append 'Figure' to subfigure captions (e.g., Figure 1.1, Figure 1.2, etc.)
-\captionsetup[subfigure]{labelformat=subfiglabel,singlelinecheck=false} 		% format subfigure captions
+\usepackage[font=footnotesize,labelfont=bf,labelsep=period,width=0.75\textwidth]{caption}   % format single-image captions and table titles
+\usepackage[font=footnotesize,labelfont=bf,labelsep=period]{subcaption}                     % format subfigure captions
+\DeclareCaptionSubType*[arabic]{figure}                                                     % use arabic numerals for subfigure captions (e.g., 1.1, 1.2, etc.)
+\DeclareCaptionLabelFormat{subfiglabel}{Figure #2}                                          % append 'Figure' to subfigure captions (e.g., Figure 1.1, Figure 1.2, etc.)
+\captionsetup[subfigure]{labelformat=subfiglabel,singlelinecheck=false}                     % format subfigure captions
 
 % CROSS-REFERENCE FORMATTING
 % For use with the cleveref package
@@ -57,10 +58,12 @@
 \Crefname{section}{Section}{Sections}
 
 % USER-DEFINED COMMANDS
-%% General / Formatting
+%
+% General / Formatting
 \newcommand{\bd}[1]{\textbf{#1}} % bold text
 \newcommand{\subsubsubsection}[1]{\vspace{5pt}\noindent{\underline{\emph{#1}}}\vspace{4pt}} % subsubsubsection command
-%% For quantum dot papers
+%
+% For quantum dot papers
 \newcommand{\Mn}{Mn$^{2+}$}
 \newcommand{\Co}{Co$^{2+}$}
 \newcommand{\MLCT}{ML$_{\text{CB}}$CT }
@@ -69,35 +72,37 @@
 \newcommand{\ecb}{$e_{\text{CB}}^{-}$}
 \newcommand{\ecbp}{$e_\text{CB}^{-}$$^{\prime}$}
 \newcommand{\hvb}{$h_{\text{VB}}^+$ }
-%% Chemistry shortcuts
-\newcommand{\atom}[2]{#1$_{#2}$}											% subscripted atom symbol
-\newcommand{\term}[3]{$^{#1}$#2$_{#3}$}										% term (level) symbol
-%% Mathematical Shortcuts
-\newcommand{\pfrac}[2]{\frac{\partial #1}{\partial #2}} 							% partial derivative
-\newcommand{\difrac}[2]{\frac{d #1}{d #2}} 										% derivative
-\newcommand{\bpar}[1]{\left( #1 \right)} 										% big parentheses
-\newcommand{\bbra}[1]{\left[ #1 \right]} 										% big brackets
-\newcommand{\bbar}[1]{\left| #1 \right|} 										% big bars
-\newcommand{\bra}[1]{\left\langle #1 \right\vert} 								% bra
-\newcommand{\ket}[1]{\left\vert #1 \right\rangle} 								% ket
-\newcommand{\inner}[2]{\left\langle #1 \left\vert\right. #2 \right\rangle} 			% bracket
-\newcommand{\innerop}[3]{\left\langle #1 \left\vert #2 \right\vert #3 \right\rangle} 	% operator matrix element
-\newcommand{\innersub}[4]{\langle \bd{#1}_{#2}, \bd{#3}_{#4} \rangle} 			% bracket with subscripts
-\newcommand{\half}{\frac{1}{2}} 												% 1/2
-\newcommand{\powfrac}[3]{\bpar{\frac{#1}{#2}}^{#3}}							% fraction raised to a power
-\newcommand{\ii}{\infty}														% infinity symbol
-\newcommand{\tquad}{\quad\quad\quad}										% triple-quad spacing
-\renewcommand{\Im}{\text{Im}}												% imaginary symbol
-\renewcommand{\Re}{\text{Re}}												% real symbol
-%------------------------------------------------------------------------------------------------------------------------
+%
+% Chemistry shortcuts
+\newcommand{\atom}[2]{#1$_{#2}$}                          % subscripted atom symbol
+\newcommand{\term}[3]{$^{#1}$#2$_{#3}$}                   % term (level) symbol
+%
+% Mathematical Shortcuts
+\newcommand{\pfrac}[2]{\frac{\partial #1}{\partial #2}}   % partial derivative
+\newcommand{\difrac}[2]{\frac{d #1}{d #2}}                % derivative
+\newcommand{\bpar}[1]{\left( #1 \right)}                  % big parentheses
+\newcommand{\bbra}[1]{\left[ #1 \right]}                  % big brackets
+\newcommand{\bbar}[1]{\left| #1 \right|}                  % big bars
+\newcommand{\bra}[1]{\left\langle #1 \right\vert}         % bra
+\newcommand{\ket}[1]{\left\vert #1 \right\rangle}         % ket
+\newcommand{\inner}[2]{\left\langle #1 \left\vert\right. #2 \right\rangle}            % bracket
+\newcommand{\innerop}[3]{\left\langle #1 \left\vert #2 \right\vert #3 \right\rangle}  % operator matrix element
+\newcommand{\innersub}[4]{\langle \bd{#1}_{#2}, \bd{#3}_{#4} \rangle}                 % bracket with subscripts
+\newcommand{\half}{\frac{1}{2}}                           % 1/2
+\newcommand{\powfrac}[3]{\bpar{\frac{#1}{#2}}^{#3}}       % fraction raised to a power
+\newcommand{\ii}{\infty}                                  % infinity symbol
+\newcommand{\tquad}{\quad\quad\quad}                      % triple-quad spacing
+\renewcommand{\Im}{\text{Im}}                             % imaginary symbol
+\renewcommand{\Re}{\text{Re}}                             % real symbol
+%-------------------------------------------------------------------------------
 % Place any additional macros here.  Please use \newcommand* where
 % possible, and avoid layout-changing macros.
-%------------------------------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 \newcommand*\mycommand[1]{\texttt{\emph{#1}}}
 
-%------------------------------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 % TITLE AND AUTHOR LIST
-%------------------------------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 % Each author should be given as a separate \author command.
 %
 % Corresponding authors should have an e-mail given after the author
@@ -114,7 +119,7 @@
 % The \altaffiliation macro should be used for new address, etc.
 % On the other hand, \alsoaffiliation is used on a per author basis
 % when authors are associated with multiple institutions.
-%------------------------------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 \title[Running Title]{Document Title}
 \author{First Author}
 \affiliation[University of Washington]
@@ -130,83 +135,83 @@
 \affiliation[University of Washington]
 {Department of Chemistry, University of Washington, Seattle, WA, 98195}
 
-%------------------------------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 % ABBREVIATIONS AND KEYWORDS
-%------------------------------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 % Some journals require a list of abbreviations or keywords to be
 % supplied. These should be set up here, and will be printed after
 % the title and author information, if needed.
-%------------------------------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 \abbreviations{IR,NMR,UV}
 \keywords{American Chemical Society, \LaTeX}
 
-%=====================================================================
+%===============================================================================
 %
 % MAIN DOCUMENT BEGINS
 %
-%=====================================================================
+%===============================================================================
 \begin{document}
 
-%------------------------------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 % ABSTRACT
-%------------------------------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 \begin{abstract}
 	Enter abstract text here.
 \end{abstract}
 
-%------------------------------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 % INTRODUCTION
-%------------------------------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 \section{Introduction}
 
 Type introduction here.  Insert references as such.\cite{Li12_2898, Li12_22A512, Li12_1374, Li12_11223, Li11_144102, Li11_024118, Li06_835, GDVH21}
 
-%------------------------------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 % METHODS
-%------------------------------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 \section{Methodology}
 
 Type methods here.
 
-%------------------------------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 % RESULTS AND DISCUSSION
-%------------------------------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 \section{Results and Discussion}
 
 Present results and type discussion here.
 
-%------------------------------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 % CONCLUSION
-%------------------------------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 \section{Conclusion}
 
 Type conclusion here.
 
-%------------------------------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 % ACKNOWLEDGEMENT
-%------------------------------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 \begin{acknowledgement}
 	This work was supported by AGENCY. Additional support from AGENCY, AGENCY, and the University of Washington Student Technology Fund is gratefully acknowledged.
 \end{acknowledgement}
 
-%------------------------------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 % SUPPORTING INFORMATION
-%------------------------------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 \begin{suppinfo}
 	This will usually read something like: ``Experimental procedures and characterization data for all new compounds. The class will automatically add a sentence pointing to the information on-line:
 \end{suppinfo}
 
-%------------------------------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 % REFERENCES
-%------------------------------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 \newpage % new page
 %\pagestyle{empty} % uncomment to remove page numbers
 %\renewcommand{\refname}{Type your custom reference section header here} % uncomment to define header for references section; default is "References"
 \bibliography{sample} % add .bib files to this list
 
-%------------------------------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 % TABLE OF CONTENTS ENTRY
-%------------------------------------------------------------------------------------------------------------------------
+%-------------------------------------------------------------------------------
 \begin{tocentry}
 
 Some journals require a graphical entry for the Table of Contents.
@@ -227,20 +232,20 @@ separate page at the end of the document.
 
 \end{tocentry}
 
-%===========================================================================
+%===============================================================================
 %
 % MAIN DOCUMENT ENDS
 %
-%===========================================================================
+%===============================================================================
 
 
-%===========================================================================
+%===============================================================================
 %
-%						FLOATS: FIGURES AND TABLES
+% FLOATS: FIGURES AND TABLES
 %
-% 			*** REMOVE THIS SECTION BEFORE SUBMITTING PAPER ***
+% *** REMOVE THIS SECTION BEFORE SUBMITTING PAPER ***
 %
-%===========================================================================
+%===============================================================================
 \newpage
 \section*{Floats: Figures and Tables}
 
@@ -248,9 +253,9 @@ This section provides examples of inserting figures, subfigures, text-wrapped fi
 
 \noindent\textbf{Single Figure Example}
 
-%------------
+%-------------------------------------------------------------------------------
 % FIGURE
-%------------
+%-------------------------------------------------------------------------------
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=3.25cm]{sample.pdf}
@@ -261,9 +266,9 @@ This section provides examples of inserting figures, subfigures, text-wrapped fi
 
 \noindent\textbf{Subfigure Example}
 
-%------------------
+%-------------------------------------------------------------------------------
 % SUBFIGURE
-%------------------
+%-------------------------------------------------------------------------------
 \begin{figure}[h]
 	\begin{center}
 	\captionsetup{labelformat=empty} % remove if you want the set of subcaptions to have one general caption
@@ -295,9 +300,9 @@ This section provides examples of inserting figures, subfigures, text-wrapped fi
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque congue nunc a augue mattis at pellentesque neque ultrices. Fusce dictum, sem nec semper vestibulum, sem odio malesuada libero, ut aliquet nibh mauris in sapien. Suspendisse congue erat at lorem placerat vel dictum nisi fringilla. Nam ligula lectus, ornare id mattis vitae, ornare quis arcu. Nulla facilisi. Duis commodo lorem lacinia odio tristique porttitor.
 
-%----------------------------
+%-------------------------------------------------------------------------------
 % WRAPPED FIGURE
-%----------------------------
+%-------------------------------------------------------------------------------
 % USAGE: \begin{wrapfigure}[1]{2}[3]{4}
 %	1 = Number of lines (optional}
 %	2 = "r" for right and "l" for left figure placement
@@ -312,9 +317,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque congue nun
 
 Quisque posuere libero ut nisl pellentesque in aliquam nunc venenatis. Praesent scelerisque mattis interdum. Ut massa enim, bibendum vitae semper at, accumsan vel magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc blandit urna id lorem aliquet cursus. Nunc diam lectus, commodo sit amet consectetur eu, mollis id purus. Morbi dolor ante, vulputate eu ultricies non, consequat in sapien.
 
-%----------------------------------------------------
+%-------------------------------------------------------------------------------
 % TABLE OF SUPPORTED JOURNALS
-%----------------------------------------------------
+%-------------------------------------------------------------------------------
 \begin{table}
   \centering
   \begin{tabular}{>{\itshape}l>{\ttfamily}l}
@@ -368,8 +373,8 @@ Quisque posuere libero ut nisl pellentesque in aliquam nunc venenatis. Praesent 
   \label{tab:journal}
 \end{table}
 
-%===========================================================================
+%===============================================================================
 %	END OF MATERIAL TO BE REMOVED
-%===========================================================================
+%===============================================================================
 
 \end{document}
