@@ -1,0 +1,117 @@
+%%
+%% This is file `trkchg.sty',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% trkchg.dtx  (with options: `package')
+%% 
+%% This is a generated file.
+%% 
+%% ------------------------------------------------------------------------------
+%% 
+%% trkchg -- Track changes document editing
+%% 
+%% Copyright (C) 2013 by Joseph W. May <jwmay@uw.edu>
+%% Li Research Group --- University of Washington
+%% 
+%% This file may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either
+%% version 1.2 of this license or (at your option) any later
+%% version.  The latest version of this license is in:
+%% 
+%%     htt://www.latex-project.org/lppl.txt
+%% 
+%% and version 1.2 or later is part of all distributions of
+%% LaTeX version 1999/12/01 or later.
+%% 
+%% ------------------------------------------------------------------------------
+\NeedsTeXFormat{LaTeX2e}[1999/12/01]
+\ProvidesPackage{trkchg}
+ [2013/07/10 v1.2 Track changes document editing]
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{trkchg}[2013/07/10 v1.2 Track changes]
+\RequirePackage{kvoptions}
+\RequirePackage{ifthen}
+\RequirePackage{amsmath}
+\RequirePackage{amssymb}
+\RequirePackage[dvipsnames]{xcolor}
+\RequirePackage[normalem]{ulem}
+\SetupKeyvalOptions{%
+family=trkchg,%
+prefix=trkchg@}
+\DeclareBoolOption{original}
+\DeclareBoolOption{final}
+\DeclareBoolOption{hidecomments}
+\DeclareBoolOption{hidetodo}
+\DeclareStringOption[NA]{user}
+\DeclareStringOption[orange]{color}
+\ProcessKeyvalOptions{trkchg}
+\newboolean{showcomments}
+\newboolean{showtodo}
+\newboolean{showoriginal}
+\newboolean{showfinal}
+\setboolean{showcomments}{true}
+\setboolean{showtodo}{true}
+\setboolean{showoriginal}{false}
+\setboolean{showfinal}{false}
+\iftrkchg@original
+\setboolean{showcomments}{false}
+\setboolean{showtodo}{false}
+\setboolean{showoriginal}{true}
+\setboolean{showfinal}{false}
+\else
+\iftrkchg@final
+\setboolean{showcomments}{false}
+\setboolean{showtodo}{false}
+\setboolean{showoriginal}{false}
+\setboolean{showfinal}{true}
+\else
+\setboolean{showcomments}{true}
+\setboolean{showtodo}{true}
+\setboolean{showoriginal}{false}
+\setboolean{showfinal}{false}
+\fi
+\fi
+\iftrkchg@hidecomments
+\setboolean{showcomments}{false}
+\fi
+\iftrkchg@hidetodo
+\setboolean{showtodo}{false}
+\fi
+\newcommand{\usrcolor}[1]{{\color{\trkchg@color}#1}}
+\newcommand{\showbx}[3]{{\colorbox{#3}{\bfseries\sffamily\scriptsize%
+\textcolor{white}{#1}}}{\textcolor{#3}{\sf\small$\blacktriangleright$%
+\textit{#2}$\blacktriangleleft$}}}
+\ifthenelse{\boolean{showcomments}}{
+\newcommand{\co}[1]{\showbx{\trkchg@user}{#1}{\trkchg@color}}
+}{
+\newcommand{\co}[1]{\ignorespaces}
+}
+\ifthenelse{\boolean{showtodo}}{
+\newcommand{\todo}[1]{\showbx{TO DO}{#1}{blue}}
+}{
+\newcommand{\todo}[1]{\ignorespaces}
+}
+\ifthenelse{\boolean{showoriginal}}{
+\newcommand{\rp}[1]{#1}
+\newcommand{\ins}[1]{\ignorespaces}
+\newcommand{\rem}[1]{#1}
+\newcommand{\ch}[2]{#1}
+}{
+\ifthenelse{\boolean{showfinal}}{
+\newcommand{\rp}[1]{#1}
+\newcommand{\ins}[1]{#1}
+\newcommand{\rem}[1]{\ignorespaces}
+\newcommand{\ch}[2]{#2}
+}{
+\newcommand{\rp}[1]{\usrcolor{\uwave{#1}}}
+\newcommand{\ins}[1]{\usrcolor{\uline{#1}}}
+\newcommand{\rem}[1]{\usrcolor{\sout{#1}}}
+\newcommand{\ch}[2]{\textcolor{red}%
+{\sout{#1}}{$~\boldsymbol{\rightarrow}~$}\usrcolor{\uline{#2}}}
+}
+}
+\endinput
+%%
+%% End of file `trkchg.sty'.

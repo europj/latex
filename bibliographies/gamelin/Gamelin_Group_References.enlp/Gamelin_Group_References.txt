@@ -1,0 +1,1228 @@
+﻿@article{
+   author = {Yang, Pinyi and Zhong, Diane K. and Yuan, Mingjian and Rice, Andrew H. and Gamelin, Daniel R. and Luscombe, Christine K.},
+   title = {TiO2 nanowire electron transport pathways inside organic photovoltaics},
+   journal = {Physical Chemistry Chemical Physics},
+   volume = {15},
+   number = {13},
+   pages = {4566-4572},
+   year = {2013}
+}
+
+@article{
+   author = {Valdez, Carolyn N. and Braten, Miles and Soria, Ashley and Gamelin, Daniel R. and Mayer, James M.},
+   title = {Effect of Protons on the Redox Chemistry of Colloidal Zinc Oxide Nanocrystals},
+   journal = {Journal of the American Chemical Society},
+   volume = {135},
+   number = {23},
+   pages = {8492-8495},
+   year = {2013}
+}
+
+@article{
+   author = {McLaurin, Emily J. and Fataftah, Majed S. and Gamelin, Daniel R.},
+   title = {One-step synthesis of alloyed dual-emitting semiconductor nanocrystals},
+   journal = {Chemical Communications},
+   volume = {49},
+   number = {1},
+   pages = {39-41},
+   year = {2013}
+}
+
+@article{
+   author = {McLaurin, Emily J. and Bradshaw, Liam R. and Gamelin, Daniel R.},
+   title = {Dual-Emitting Nanoscale Temperature Sensors},
+   journal = {Chemistry of Materials},
+   volume = {25},
+   number = {8},
+   pages = {1283-1292},
+   year = {2013}
+}
+
+@article{
+   author = {Mayer, James and Valdez, Carolyn and Braten, Miles and Schrauben, Joel and Gamelin, Daniel},
+   title = {Exploring the roles of protons in redox reactions of metal oxide nanoparticles},
+   journal = {Abstracts of Papers of the American Chemical Society},
+   volume = {245},
+   note = {245th National Spring Meeting of the American-Chemical-Society (ACS)
+Apr 07-11, 2013
+New Orleans, LA
+Amer Chem Soc},
+   year = {2013}
+}
+
+@article{
+   author = {De Trizio, Luca and Buonsanti, Raffaella and Schimpf, Alina M. and Llordes, Anna and Gamelin, Daniel R. and Simonutti, Roberto and Milliron, Delia J.},
+   title = {Nb-Doped Colloidal TiO2 Nanocrystals with Tunable Infrared Absorption},
+   journal = {Chemistry of Materials},
+   volume = {25},
+   number = {16},
+   pages = {3383-3390},
+   year = {2013}
+}
+
+@article{
+   author = {Cohn, Alicia W. and Schimpf, Alina M. and Gunthardt, Carolyn E. and Gamelin, Daniel R.},
+   title = {Size-Dependent Trap-Assisted Auger Recombination in Semiconductor Nanocrystals},
+   journal = {Nano Letters},
+   volume = {13},
+   number = {4},
+   pages = {1810-1815},
+   year = {2013}
+}
+
+@article{
+   author = {Chen, Peng and Gamelin, Daniel R. and Kennepohl, Pierre},
+   title = {Special Issue: A Tribute to Edward I. Solomon on his 65th Birthday: Part 1 Preface},
+   journal = {Coordination Chemistry Reviews},
+   volume = {257},
+   number = {1},
+   pages = {1-2},
+   note = {Si},
+   year = {2013}
+}
+
+@article{
+   author = {Chamberlin, Sara E. and Wang, Yong and Lopata, Kenneth and Kaspar, Tiffany C. and Cohn, Alicia W. and Gamelin, Daniel R. and Govind, Niranjan and Sushko, Peter V. and Chambers, Scott A.},
+   title = {Optical absorption and spectral photoconductivity in alpha-(Fe1-xCrx)(2)O-3 solid-solution thin films},
+   journal = {Journal of Physics-Condensed Matter},
+   volume = {25},
+   number = {39},
+   year = {2013}
+}
+
+@article{
+   author = {Weaver, Amanda L. and Gamelin, Daniel R.},
+   title = {Photoluminescence Brightening via Electrochemical Trap Passivation in ZnSe and Mn2+-Doped ZnSe Quantum Dots},
+   journal = {Journal of the American Chemical Society},
+   volume = {134},
+   number = {15},
+   pages = {6819-6825},
+   year = {2012}
+}
+
+@article{
+   author = {Schlenker, Cody W. and Chen, Kung-Shih and Yip, Hin-Lap and Li, Chang-Zhi and Bradshaw, Liam R. and Ochsenbein, Stefan T. and Ding, Feizhi and Li, Xiaosong S. and Gamelin, Daniel R. and Jen, Alex K. Y. and Ginger, David S.},
+   title = {Polymer Triplet Energy Levels Need Not Limit Photocurrent Collection in Organic Solar Cells},
+   journal = {Journal of the American Chemical Society},
+   volume = {134},
+   number = {48},
+   pages = {19661-19668},
+   year = {2012}
+}
+
+@article{
+   author = {Schimpf, Alina M. and Ochsenbein, Stefan T. and Buonsanti, Raffaella and Milliron, Delia J. and Gamelin, Daniel R.},
+   title = {Comparison of extra electrons in colloidal n-type Al3+-doped and photochemically reduced ZnO nanocrystals},
+   journal = {Chemical Communications},
+   volume = {48},
+   number = {75},
+   pages = {9352-9354},
+   year = {2012}
+}
+
+@article{
+   author = {Schimpf, Alina M. and Gamelin, Daniel R.},
+   title = {Thermal Tuning and Inversion of Excitonic Zeeman Splittings in Colloidal Doped CdSe Quantum Dots},
+   journal = {Journal of Physical Chemistry Letters},
+   volume = {3},
+   number = {10},
+   pages = {1264-1268},
+   year = {2012}
+}
+
+@article{
+   author = {Rinehart, Jeffrey D. and Weaver, Amanda L. and Gamelin, Daniel R.},
+   title = {Redox Brightening of Colloidal Semiconductor Nanocrystals Using Molecular Reductants},
+   journal = {Journal of the American Chemical Society},
+   volume = {134},
+   number = {39},
+   pages = {16175-16177},
+   year = {2012}
+}
+
+@article{
+   author = {Peng, Bo and Liang, Wenkel and White, Michael A. and Gamelin, Daniel R. and Li, Xiaosong},
+   title = {Theoretical Evaluation of Spin-Dependent Auger De-Excitation in Mn2+-Doped Semiconductor Nanocrystals},
+   journal = {Journal of Physical Chemistry C},
+   volume = {116},
+   number = {20},
+   pages = {11223-11231},
+   year = {2012}
+}
+
+@article{
+   author = {Mayer, James M. and Schrauben, Joel N. and Valdez, Carolyn N. and Braten, Miles and Hayoun, Rebecca and Whitaker, Kelly M. and Gamelin, Daniel R.},
+   title = {Exploring the roles of protons in redox reactions of metal oxide nanoparticles},
+   journal = {Abstracts of Papers of the American Chemical Society},
+   volume = {244},
+   note = {244th National Fall Meeting of the American-Chemical-Society (ACS)
+Aug 19-23, 2012
+Philadelphia, PA
+Amer Chem Soc, Div Hist Chem; Amer Chem Soc},
+   year = {2012}
+}
+
+@article{
+   author = {Gamelin, Daniel R.},
+   title = {Electronic structures of doped semiconductor nanocrystals},
+   journal = {Abstracts of Papers of the American Chemical Society},
+   volume = {243},
+   note = {Symposium on Ionic Liquids - Science and Applications / 243rd National Spring Meeting of the American-Chemical-Society
+Mar 25-29, 2012
+San Diego, CA
+Amer Chem Soc, Div Ind & Engn Chem; Amer Chem Soc},
+   year = {2012}
+}
+
+@article{
+   author = {Gamelin, Daniel R.},
+   title = {Dopants and charge carriers in colloidal semiconductor nanocrystals},
+   journal = {Abstracts of Papers of the American Chemical Society},
+   volume = {244},
+   note = {244th National Fall Meeting of the American-Chemical-Society (ACS)
+Aug 19-23, 2012
+Philadelphia, PA
+Amer Chem Soc, Div Hist Chem; Amer Chem Soc},
+   year = {2012}
+}
+
+@article{
+   author = {Gamelin, Daniel R.},
+   title = {WATER SPLITTING Catalyst or spectator?},
+   journal = {Nature Chemistry},
+   volume = {4},
+   number = {12},
+   pages = {965-967},
+   year = {2012}
+}
+
+@article{
+   author = {Cohn, Alicia W. and Kittilstved, Kevin R. and Gamelin, Daniel R.},
+   title = {Tuning the Potentials of "Extra" Electrons in Colloidal n-Type ZnO Nanocrystals via Mg2+ Substitution},
+   journal = {Journal of the American Chemical Society},
+   volume = {134},
+   number = {18},
+   pages = {7937-7943},
+   year = {2012}
+}
+
+@article{
+   author = {Cohn, Alicia W. and Janssen, Nils and Mayer, James M. and Gamelin, Daniel R.},
+   title = {Photocharging ZnO Nanocrystals: Picosecond Hole Capture, Electron Accumulation, and Auger Recombination},
+   journal = {Journal of Physical Chemistry C},
+   volume = {116},
+   number = {38},
+   pages = {20633-20642},
+   year = {2012}
+}
+
+@article{
+   author = {Bradshaw, Liam R. and Hauser, Andreas and McLaurin, Emily J. and Gamelin, Daniel R.},
+   title = {Luminescence Saturation via Mn2+-Exciton Cross Relaxation in Colloidal Doped Semiconductor Nanocrystals},
+   journal = {Journal of Physical Chemistry C},
+   volume = {116},
+   number = {16},
+   pages = {9300-9310},
+   year = {2012}
+}
+
+@article{
+   author = {Zhong, Diane K. and Cornuz, Maurin and Sivula, Kevin and Graetzel, Michael and Gamelin, Daniel R.},
+   title = {Photo-assisted electrodeposition of cobalt-phosphate (Co-Pi) catalyst on hematite photoanodes for solar water oxidation},
+   journal = {Energy & Environmental Science},
+   volume = {4},
+   number = {5},
+   pages = {1759-1764},
+   year = {2011}
+}
+
+@article{
+   author = {Zhong, Diane K. and Choi, Sujung and Gamelin, Daniel R.},
+   title = {Near-Complete Suppression of Surface Recombination in Solar Photoelectrolysis by "Co-Pi" Catalyst-Modified W:BiVO4},
+   journal = {Journal of the American Chemical Society},
+   volume = {133},
+   number = {45},
+   pages = {18370-18377},
+   year = {2011}
+}
+
+@article{
+   author = {White, Michael A. and Weaver, Amanda L. and Beaulac, Remi and Gamelin, Daniel R.},
+   title = {Electrochemically Controlled Auger Quenching of Mn2+ Photoluminescence in Doped Semiconductor Nanocrystals},
+   journal = {Acs Nano},
+   volume = {5},
+   number = {5},
+   pages = {4158-4168},
+   year = {2011}
+}
+
+@article{
+   author = {Whitaker, Kelly M. and Raskin, Maxim and Kiliani, Gillian and Beha, Katja and Ochsenbein, Stefan T. and Janssen, Nils and Fonin, Mikhail and Ruediger, Ulrich and Leitenstorfer, Alfred and Gamelin, Daniel R. and Bratschitsch, Rudolf},
+   title = {Spin-on Spintronics: Ultrafast Electron Spin Dynamics in ZnO and Zn1-xCoxO Sol-Gel Films},
+   journal = {Nano Letters},
+   volume = {11},
+   number = {8},
+   pages = {3355-3360},
+   year = {2011}
+}
+
+@article{
+   author = {Ochsenbein, Stefan T. and Gamelin, Daniel R.},
+   title = {Quantum oscillations in magnetically doped colloidal nanocrystals},
+   journal = {Nature Nanotechnology},
+   volume = {6},
+   number = {2},
+   pages = {111-114},
+   year = {2011}
+}
+
+@article{
+   author = {McLaurin, Emily J. and Vlaskin, Vladimir A. and Gamelin, Daniel R.},
+   title = {Water-Soluble Dual-Emitting Nanocrystals for Ratiometric Optical Thermometry},
+   journal = {Journal of the American Chemical Society},
+   volume = {133},
+   number = {38},
+   pages = {14978-14980},
+   year = {2011}
+}
+
+@article{
+   author = {Johnson, Claire A. and Cohn, Alicia and Kaspar, Tiffany and Chambers, Scott A. and Salley, G. Mackay and Gamelin, Daniel R.},
+   title = {Visible-light photoconductivity of Zn1-xCoxO and its dependence on Co2+ concentration},
+   journal = {Physical Review B},
+   volume = {84},
+   number = {12},
+   year = {2011}
+}
+
+@article{
+   author = {Hayoun, Rebecca and Whitaker, Kelly M. and Gamelin, Daniel R. and Mayer, James M.},
+   title = {Electron Transfer Between Colloidal ZnO Nanocrystals},
+   journal = {Journal of the American Chemical Society},
+   volume = {133},
+   number = {12},
+   pages = {4228-4231},
+   year = {2011}
+}
+
+@article{
+   author = {Gamelin, Daniel R. and Zhong, Diane K.},
+   title = {Solar water splitting with oxide photoanodes},
+   journal = {Abstracts of Papers of the American Chemical Society},
+   volume = {242},
+   note = {242nd National Meeting of the American-Chemical-Society (ACS)
+Aug 28-sep 01, 2011
+Denver, CO
+Amer Chem Soc (ACS)},
+   year = {2011}
+}
+
+@article{
+   author = {Gamelin, Daniel R. and Vlaskin, Vladimir A. and Janssen, Nils and McLaurin, Emily J. and Beaulac, Remi and van Rijssel, Jos},
+   title = {Intrinsic dual emission in colloidal Mn2+-doped nanocrystals: Synthesis, spectroscopy, and thermometry},
+   journal = {Abstracts of Papers of the American Chemical Society},
+   volume = {242},
+   note = {242nd National Meeting of the American-Chemical-Society (ACS)
+Aug 28-sep 01, 2011
+Denver, CO
+Amer Chem Soc (ACS)},
+   year = {2011}
+}
+
+@article{
+   author = {Gamelin, Daniel R. and Ochsenbein, Stefan T. and Janssen, Nils and Cohn, Alicia W.},
+   title = {Spins in colloidal ZnO nanocrystals},
+   journal = {Abstracts of Papers of the American Chemical Society},
+   volume = {242},
+   note = {242nd National Meeting of the American-Chemical-Society (ACS)
+Aug 28-sep 01, 2011
+Denver, CO
+Amer Chem Soc (ACS)},
+   year = {2011}
+}
+
+@article{
+   author = {Beaulac, Remi and Feng, Yong and May, Joseph W. and Badaeva, Ekaterina and Gamelin, Daniel R. and Li, Xiaosong},
+   title = {Orbital pathways for Mn2+-carrier sp-d exchange in diluted magnetic semiconductor quantum dots},
+   journal = {Physical Review B},
+   volume = {84},
+   number = {19},
+   year = {2011}
+}
+
+@article{
+   author = {Badaeva, Ekaterina and May, Joseph W. and Ma, Jiao and Gamelin, Daniel R. and Li, Xiaosong},
+   title = {Characterization of Excited-State Magnetic Exchange in Mn2+-Doped ZnO Quantum Dots Using Time-Dependent Density Functional Theory},
+   journal = {Journal of Physical Chemistry C},
+   volume = {115},
+   number = {43},
+   pages = {20986-20991},
+   year = {2011}
+}
+
+@article{
+   author = {Bacher, Gerd and Schneider, Lars and Beaulac, Remi and Archer, Paul I. and Gamelin, Daniel R.},
+   title = {Magnetic Polaron Formation Dynamics in Mn2+-Doped Colloidal Nanocrystals up to Room Temperature},
+   journal = {Journal of the Korean Physical Society},
+   volume = {58},
+   number = {5},
+   pages = {1261-1266},
+   note = {Si
+1
+30th International Conference on the Physics of Semiconductors (ICPS-30)
+Jul 25-30, 2010
+Seoul, SOUTH KOREA
+Int Un Pure & Appl Phys (IUPAP C8 Commiss); Korean Minist Educ, Sci & Technol; Seoul Metropolitan Govt; Off Naval Res Global; Korea Tourism Org; Seoul Tourism Org; POSTECH Natl Ctr Nanomat Technol (NCNT); Hindustan Univ; Samsung; LG Siltron; ICPS 29},
+   year = {2011}
+}
+
+@article{
+   author = {Zhong, Diane K. and Gamelin, Daniel R.},
+   title = {Photoelectrochemical Water Oxidation by Cobalt Catalyst ("Co-Pi")/alpha-Fe2O3 Composite Photoanodes: Oxygen Evolution and Resolution of a Kinetic Bottleneck},
+   journal = {Journal of the American Chemical Society},
+   volume = {132},
+   number = {12},
+   pages = {4202-4207},
+   year = {2010}
+}
+
+@article{
+   author = {White, Michael A. and Lovejoy, Tracy C. and Ochsenbein, Stefan T. and Olmstead, Marjorie A. and Gamelin, Daniel R.},
+   title = {Sputtering-induced Co-0 formation in x-ray photoelectron spectroscopy of nanocrystalline Zn1-xCoxO spinodal enrichment models},
+   journal = {Journal of Applied Physics},
+   volume = {107},
+   number = {10},
+   year = {2010}
+}
+
+@article{
+   author = {Whitaker, Kelly M. and Ochsenbein, Stefan T. and Smith, Alyssa L. and Echodu, Dorothy C. and Robinson, Bruce H. and Gamelin, Daniel R.},
+   title = {Hyperfine Coupling in Colloidal n-Type ZnO Quantum Dots: Effects on Electron Spin Relaxation},
+   journal = {Journal of Physical Chemistry C},
+   volume = {114},
+   number = {34},
+   pages = {14467-14472},
+   year = {2010}
+}
+
+@article{
+   author = {Vlaskin, Vladimir A. and Janssen, Nils and van Rijssel, Jos and Beaulac, Remi and Gamelin, Daniel R.},
+   title = {Tunable Dual Emission in Doped Semiconductor Nanocrystals},
+   journal = {Nano Letters},
+   volume = {10},
+   number = {9},
+   pages = {3670-3674},
+   year = {2010}
+}
+
+@article{
+   author = {Sun, Jianwei and Zhong, Diane K. and Gamelin, Daniel R.},
+   title = {Composite photoanodes for photoelectrochemical solar water splitting},
+   journal = {Energy & Environmental Science},
+   volume = {3},
+   number = {9},
+   pages = {1252-1261},
+   year = {2010}
+}
+
+@article{
+   author = {Johnson, Claire A. and Kittilstved, Kevin R. and Kaspar, Tiffany C. and Droubay, Tim C. and Chambers, Scott A. and Salley, G. Mackay and Gamelin, Daniel R.},
+   title = {Mid-gap electronic states in Zn1-xMnxO},
+   journal = {Physical Review B},
+   volume = {82},
+   number = {11},
+   year = {2010}
+}
+
+@article{
+   author = {Johnson, Claire A. and Kaspar, Tiffany C. and Chambers, Scott A. and Salley, G. Mackay and Gamelin, Daniel R.},
+   title = {Sub-band-gap photoconductivity in Co2+-doped ZnO},
+   journal = {Physical Review B},
+   volume = {81},
+   number = {12},
+   year = {2010}
+}
+
+@article{
+   author = {Hayoun, Rebecca and Whitaker, Kelly M. and Gamelin, Daniel R. and Mayer, James M.},
+   title = {Electron transfer between colloidal ZnO nanoparticles},
+   journal = {Abstracts of Papers of the American Chemical Society},
+   volume = {239},
+   year = {2010}
+}
+
+@article{
+   author = {Feng, Yong and Badaeva, Ekaterina and Gamelin, Daniel R. and Li, Xiaosong},
+   title = {Excited-State Double Exchange in Manganese-Doped ZnO Quantum Dots: A Time-Dependent Density-Functional Study},
+   journal = {Journal of Physical Chemistry Letters},
+   volume = {1},
+   number = {13},
+   pages = {1927-1931},
+   year = {2010}
+}
+
+@article{
+   author = {Beaulac, Remi and Gamelin, Daniel R.},
+   title = {Two-center formulation of Mn2+-electron s-d exchange coupling in bulk and quantum-confined diluted magnetic semiconductors},
+   journal = {Physical Review B},
+   volume = {82},
+   number = {22},
+   year = {2010}
+}
+
+@article{
+   author = {Zhong, Diane K. and Sun, Jianwei and Inumaru, Hiroki and Gamelin, Daniel R.},
+   title = {Solar Water Oxidation by Composite Catalyst/alpha-Fe2O3 Photoanodes},
+   journal = {Journal of the American Chemical Society},
+   volume = {131},
+   number = {17},
+   pages = {6086-+},
+   year = {2009}
+}
+
+@article{
+   author = {Vlaskin, Vladimir A. and Beaulac, Remi and Gamelin, Daniel R.},
+   title = {Dopant-Carrier Magnetic Exchange Coupling in Colloidal Inverted Core/Shell Semiconductor Nanocrystals},
+   journal = {Nano Letters},
+   volume = {9},
+   number = {12},
+   pages = {4376-4382},
+   year = {2009}
+}
+
+@article{
+   author = {Ochsenbein, Stefan T. and Feng, Yong and Whitaker, Kelly M. and Badaeva, Ekaterina and Liu, William K. and Li, Xiaosong and Gamelin, Daniel R.},
+   title = {Charge-controlled magnetism in colloidal doped semiconductor nanocrystals},
+   journal = {Nature Nanotechnology},
+   volume = {4},
+   number = {10},
+   pages = {681-687},
+   year = {2009}
+}
+
+@article{
+   author = {Lee, Hyo Joong and Chen, Peter and Moon, Soo-Jin and Sauvage, Frederic and Sivula, Kevin and Bessho, Takeru and Gamelin, Daniel R. and Comte, Pascal and Zakeeruddin, Shaik M. and Il Seok, Sang and Graetzel, Michael and Nazeeruddin, Md K.},
+   title = {Regenerative PbS and CdS Quantum Dot Sensitized Solar Cells with a Cobalt Complex as Hole Mediator},
+   journal = {Langmuir},
+   volume = {25},
+   number = {13},
+   pages = {7602-7608},
+   year = {2009}
+}
+
+@article{
+   author = {Lee, HyoJoong and Wang, Mingkui and Chen, Peter and Gamelin, Daniel R. and Zakeeruddin, Shaik M. and Graetzel, Michael and Nazeeruddin, Md K.},
+   title = {Efficient CdSe Quantum Dot-Sensitized Solar Cells Prepared by an Improved Successive Ionic Layer Adsorption and Reaction Process},
+   journal = {Nano Letters},
+   volume = {9},
+   number = {12},
+   pages = {4221-4227},
+   year = {2009}
+}
+
+@article{
+   author = {Droubay, T. C. and Keavney, D. J. and Kaspar, T. C. and Heald, S. M. and Wang, C. M. and Johnson, C. A. and Whitaker, K. M. and Gamelin, D. R. and Chambers, S. A.},
+   title = {Correlated substitution in paramagnetic Mn2+-doped ZnO epitaxial films},
+   journal = {Physical Review B},
+   volume = {79},
+   number = {15},
+   year = {2009}
+}
+
+@article{
+   author = {Beaulac, Remi and Schneider, Lars and Archer, Paul I. and Bacher, Gerd and Gamelin, Daniel R.},
+   title = {Light-Induced Spontaneous Magnetization in Doped Colloidal Quantum Dots},
+   journal = {Science},
+   volume = {325},
+   number = {5943},
+   pages = {973-976},
+   year = {2009}
+}
+
+@article{
+   author = {Badaeva, Ekaterina and Isborn, Christine M. and Feng, Yong and Ochsenbein, Stefan T. and Gamelin, Daniel R. and Li, Xiaosong},
+   title = {Theoretical Characterization of Electronic Transitions in Co2+- and Mn2+-Doped ZnO Nanocrystals},
+   journal = {Journal of Physical Chemistry C},
+   volume = {113},
+   number = {20},
+   pages = {8710-8717},
+   year = {2009}
+}
+
+@article{
+   author = {White, Michael A. and Ochsenbein, Stefan T. and Gamelin, Daniel R.},
+   title = {Colloidal Nanocrystals of Wurtzite Zn1-xCoxO (0 <= x <= 1): Models of Spinodal Decomposition in an Oxide Diluted Magnetic Semiconductor},
+   journal = {Chemistry of Materials},
+   volume = {20},
+   number = {22},
+   pages = {7107-7116},
+   year = {2008}
+}
+
+@article{
+   author = {Whitaker, Kelly M. and Ochsenbein, Stefan T. and Polinger, Victor Z. and Gamelin, Daniel R.},
+   title = {Electron confinement effects in the EPR spectra of colloidal n-type ZnO quantum dots},
+   journal = {Journal of Physical Chemistry C},
+   volume = {112},
+   number = {37},
+   pages = {14331-14335},
+   year = {2008}
+}
+
+@article{
+   author = {Thomay, Tim and Hanke, Tobias and Tomas, Martin and Sotier, Florian and Beha, Katja and Knittel, Vanessa and Kahl, Matthias and Whitaker, Kelly M. and Gamelin, Daniel R. and Leitenstorfer, Alfred and Bratschitsch, Rudolf},
+   title = {Colloidal ZnO quantum dots in ultraviolet pillar microcavities},
+   journal = {Optics Express},
+   volume = {16},
+   number = {13},
+   pages = {9791-9794},
+   year = {2008}
+}
+
+@article{
+   author = {Kaspar, T. C. and Droubay, T. and Heald, S. M. and Nachimuthu, P. and Wang, C. M. and Shutthanandan, V. and Johnson, C. A. and Gamelin, D. R. and Chambers, S. A.},
+   title = {Lack of ferromagnetism in n-type cobalt-doped ZnO epitaxial thin films},
+   journal = {New Journal of Physics},
+   volume = {10},
+   year = {2008}
+}
+
+@article{
+   author = {Janssen, Nils and Whitaker, Kelly M. and Gamelin, Daniel R. and Bratschitsch, Rudolf},
+   title = {Ultrafast spin dynamics in colloidal ZnO quantum dots},
+   journal = {Nano Letters},
+   volume = {8},
+   number = {7},
+   pages = {1991-1994},
+   year = {2008}
+}
+
+@article{
+   author = {Beaulac, Remi and Archer, Paul I. and van Rijssel, Jos and Meijerink, Andries and Gamelin, Daniel R.},
+   title = {Exciton storage by Mn2+ in colloidal Mn2+-doped CdSe quantum dots},
+   journal = {Nano Letters},
+   volume = {8},
+   number = {9},
+   pages = {2949-2953},
+   year = {2008}
+}
+
+@article{
+   author = {Beaulac, Remi and Archer, Paul I. and Ochsenbein, Stefan T. and Gamelin, Daniel R.},
+   title = {Mn2+-Doped CdSe Quantum Dots: New Inorganic Materials for Spin-Electronics and Spin-Photonics},
+   journal = {Advanced Functional Materials},
+   volume = {18},
+   number = {24},
+   pages = {3873-3891},
+   year = {2008}
+}
+
+@article{
+   author = {Beaulac, Remi and Archer, Paul I. and Liu, Xinyu and Lee, Sanghoon and Salley, G. Mackay and Dobrowolska, Margaret and Furdyna, Jacek K. and Gamelin, Daniel R.},
+   title = {Spin-polarizable excitonic luminescence in colloidal Mn2+-doped CdSe quantum dots},
+   journal = {Nano Letters},
+   volume = {8},
+   number = {4},
+   pages = {1197-1201},
+   year = {2008}
+}
+
+@article{
+   author = {Beaulac, Remi and Archer, Paul I. and Gamelin, Daniel R.},
+   title = {Luminescence in colloidal Mn2+-doped semiconductor nanocrystals},
+   journal = {Journal of Solid State Chemistry},
+   volume = {181},
+   number = {7},
+   pages = {1582-1589},
+   year = {2008}
+}
+
+@article{
+   author = {Badaeva, Ekaterina and Feng, Yong and Gamelin, Daniel R. and Li, Xiaosong},
+   title = {Investigation of pure and Co(2+)-doped ZnO quantum dot electronic structures using the density functional theory: choosing the right functional},
+   journal = {New Journal of Physics},
+   volume = {10},
+   year = {2008}
+}
+
+@article{
+   author = {Santangelo, Steven A. and Hinds, Eric A. and Vlaskin, Vladimir A. and Archer, Paul I. and Gamelin, Daniel R.},
+   title = {Bimodal bond-length distributions in cobalt-doped CdSe, ZnSe, and Cd1-xZnxSe quantum dots},
+   journal = {Journal of the American Chemical Society},
+   volume = {129},
+   number = {13},
+   pages = {3973-3978},
+   year = {2007}
+}
+
+@article{
+   author = {Liu, William K. and Whitaker, Kelly M. and Smith, Alyssa L. and Kittilstved, Kevin R. and Robinson, Bruce H. and Gamelin, Daniel R.},
+   title = {Room-temperature electron spin dynamics in free-standing ZnO quantum dots},
+   journal = {Physical Review Letters},
+   volume = {98},
+   number = {18},
+   year = {2007}
+}
+
+@article{
+   author = {Chambers, S. A. and Schwartz, D. A. and Liu, W. K. and Kittilstved, K. R. and Gamelin, D. R.},
+   title = {Growth, electronic and magnetic properties of doped ZnO epitaxial and nanocrystalline films},
+   journal = {Applied Physics a-Materials Science & Processing},
+   volume = {88},
+   number = {1},
+   pages = {1-5},
+   year = {2007}
+}
+
+@article{
+   author = {Badaeva, Ekaterina and Feng, Yong and Gamelin, Daniel R. and Li, Xiaosong},
+   title = {PHYS 465-Theoretical characterization of diluted magnetic semiconductors: (Mn, Zn)O and (Co, Zn)O clusters},
+   journal = {Abstracts of Papers of the American Chemical Society},
+   volume = {234},
+   year = {2007}
+}
+
+@article{
+   author = {Archer, Paul I. and Santangelo, Steven A. and Gamelin, Daniel R.},
+   title = {Direct observation of sp-d exchange interactions in colloidal Mn2+- and Co2+-doped CdSe quantum dots},
+   journal = {Nano Letters},
+   volume = {7},
+   number = {4},
+   pages = {1037-1043},
+   year = {2007}
+}
+
+@article{
+   author = {Archer, Paul I. and Santangelo, Steven A. and Gamelin, Daniel R.},
+   title = {Inorganic cluster syntheses of TM2+-doped quantum dots (CdSe, CdS, CdSe/CdS): Physical property dependence on dopant locale},
+   journal = {Journal of the American Chemical Society},
+   volume = {129},
+   number = {31},
+   pages = {9808-9818},
+   year = {2007}
+}
+
+@article{
+   author = {Norberg, Nick S. and Parks, Gregory L. and Salley, G. Mackay and Gamelin, Daniel R.},
+   title = {Giant excitonic Zeeman splittings in colloidal Co2+-doped ZnSe quantum dots},
+   journal = {Journal of the American Chemical Society},
+   volume = {128},
+   number = {40},
+   pages = {13195-13203},
+   year = {2006}
+}
+
+@article{
+   author = {Norberg, N. S. and Gamelin, D. R.},
+   title = {Giant Zeeman effects in colloidal diluted magnetic semiconductor quantum dots with homogeneous dopant speciation},
+   journal = {Journal of Applied Physics},
+   volume = {99},
+   number = {8},
+   year = {2006}
+}
+
+@article{
+   author = {Norberg, Nick S. and Dalpian, Gustavo M. and Chelikowsky, James R. and Gamelin, Daniel R.},
+   title = {Energetic pinning of magnetic impurity levels in quantum-confined semiconductors},
+   journal = {Nano Letters},
+   volume = {6},
+   number = {12},
+   pages = {2887-2892},
+   year = {2006}
+}
+
+@article{
+   author = {Liu, W. K. and Whitaker, K. M. and Kittilstved, K. R. and Gamelin, D. R.},
+   title = {Stable photogenerated carriers in magnetic semiconductor nanocrystals},
+   journal = {Journal of the American Chemical Society},
+   volume = {128},
+   number = {12},
+   pages = {3910-3911},
+   year = {2006}
+}
+
+@article{
+   author = {Kittilstved, Kevin R. and Zhao, Jialong and Liu, William K. and Bryan, J. Daniel and Schwartz, Dana A. and Gamelin, Daniel R.},
+   title = {Magnetic circular dichroism of ferromagnetic Co2+-doped ZnO},
+   journal = {Applied Physics Letters},
+   volume = {89},
+   number = {6},
+   year = {2006}
+}
+
+@article{
+   author = {Kittilstved, Kevin R. and Schwartz, Dana A. and Tuan, Allan C. and Heald, Steve M. and Chambers, Scott A. and Gamelin, Daniel R.},
+   title = {Direct kinetic correlation of carriers and ferromagnetism in Co2+: ZnO},
+   journal = {Physical Review Letters},
+   volume = {97},
+   number = {3},
+   year = {2006}
+}
+
+@article{
+   author = {Kittilstved, K. R. and Liu, W. K. and Gamelin, D. R.},
+   title = {Electronic structure origins of polarity-dependent high-T-C ferromagnetismin oxide-diluted magnetic semiconductors},
+   journal = {Nature Materials},
+   volume = {5},
+   number = {4},
+   pages = {291-297},
+   year = {2006}
+}
+
+@article{
+   author = {Kittilstved, K. R. and Gamelin, D. R.},
+   title = {Manipulating polar ferromagnetism in transition-metal-doped ZnO: Why manganese is different from cobalt (invited)},
+   journal = {Journal of Applied Physics},
+   volume = {99},
+   number = {8},
+   year = {2006}
+}
+
+@article{
+   author = {Kaspar, T. C. and Droubay, T. and Shutthanandan, V. and Heald, S. M. and Wang, C. M. and McCready, D. E. and Thevuthasan, S. and Bryan, J. D. and Gamelin, D. R. and Kellock, A. J. and Toney, M. F. and Hong, X. and Ahn, C. H. and Chambers, S. A.},
+   title = {Ferromagnetism and structure of epitaxial Cr-doped anatase TiO2 thin films},
+   journal = {Physical Review B},
+   volume = {73},
+   number = {15},
+   year = {2006}
+}
+
+@article{
+   author = {Gamelin, Daniel R.},
+   title = {Manipulating high-temperature ferromagnetism in oxide diluted magnetic semiconductors relevant to spintronics},
+   journal = {Abstracts of Papers of the American Chemical Society},
+   volume = {231},
+   note = {231st National Meeting of the American-Chemical-Society
+Mar 26-30, 2006
+Atlanta, GA
+Amer Chem Soc},
+   year = {2006}
+}
+
+@article{
+   author = {Chambers, S. A. and Droubay, T. C. and Wang, C. M. and Rosso, K. M. and Heald, S. M. and Schwartz, D. A. and Kittilstved, K. R. and Gamelin, D. R.},
+   title = {Ferromagnetism in oxide semiconductors},
+   journal = {Materials Today},
+   volume = {9},
+   number = {11},
+   pages = {28-35},
+   year = {2006}
+}
+
+@article{
+   author = {Archer, P. I. and Gamelin, D. R.},
+   title = {Controlled grain-boundary defect formation and its role in the high-T-c ferromagnetism of Ni2+: SnO2},
+   journal = {Journal of Applied Physics},
+   volume = {99},
+   number = {8},
+   year = {2006}
+}
+
+@article{
+   author = {Norberg, N. S. and Gamelin, D. R.},
+   title = {Influence of surface modification on the luminescence of colloidal ZnO nanocrystals},
+   journal = {Journal of Physical Chemistry B},
+   volume = {109},
+   number = {44},
+   pages = {20810-20816},
+   year = {2005}
+}
+
+@article{
+   author = {Liu, W. K. and Salley, G. M. and Gamelin, D. R.},
+   title = {Spectroscopy of photovoltaic and photoconductive nanocrystalline Co2+-doped ZnO electrodes},
+   journal = {Journal of Physical Chemistry B},
+   volume = {109},
+   number = {30},
+   pages = {14486-14495},
+   year = {2005}
+}
+
+@article{
+   author = {Kittilstved, K. R. and Norberg, N. S. and Gamelin, D. R.},
+   title = {Chemical manipulation of High-T-C ferromagnetism in ZnO diluted magnetic semiconductors},
+   journal = {Physical Review Letters},
+   volume = {94},
+   number = {14},
+   year = {2005}
+}
+
+@article{
+   author = {Kittilstved, K. R. and Gamelin, D. R.},
+   title = {Activation of high-T-c ferromagnetism in Mn2+-doped ZnO using amines},
+   journal = {Journal of the American Chemical Society},
+   volume = {127},
+   number = {15},
+   pages = {5292-5293},
+   year = {2005}
+}
+
+@article{
+   author = {Kaspar, T. C. and Heald, S. M. and Wang, C. M. and Bryan, J. D. and Droubay, T. and Shutthanandan, V. and Thevuthasan, S. and McCready, D. E. and Kellock, A. J. and Gamelin, D. R. and Chambers, S. A.},
+   title = {Negligible magnetism in excellent structural quality CrxTi1-xO2 anatase: Contrast with high-T-C ferromagnetism in structurally defective CrxTi1-xO2},
+   journal = {Physical Review Letters},
+   volume = {95},
+   number = {21},
+   year = {2005}
+}
+
+@article{
+   author = {Bryan, J. D. and Schwartz, D. A. and Gamelin, D. R.},
+   title = {The influence of dopants on the nucleation of semiconductor nanocrystals from homogeneous solution},
+   journal = {Journal of Nanoscience and Nanotechnology},
+   volume = {5},
+   number = {9},
+   pages = {1472-1479},
+   year = {2005}
+}
+
+@article{
+   author = {Bryan, J. D. and Santangelo, S. A. and Keveren, S. C. and Gamelin, D. R.},
+   title = {Activation of high-T-c ferromagnetism in Co2+: TiO2 and Cr3+: TiO2 nanorods and nanocrystals by grain boundary defects},
+   journal = {Journal of the American Chemical Society},
+   volume = {127},
+   number = {44},
+   pages = {15568-15574},
+   year = {2005}
+}
+
+@inbook{
+   author = {Bryan, J. Daniel and Gamelin, Daniel R.},
+   title = {Doped Semiconductor Nanocrystals: Synthesis, Characterization, Physical Properties, and Applications},
+   booktitle = {Progress in Inorganic Chemistry, Vol 54},
+   editor = {Karlin, K. D.},
+   series = {Progress in Inorganic Chemistry},
+   volume = {54},
+   pages = {47-126},
+   year = {2005}
+}
+
+@article{
+   author = {Archer, P. I. and Radovanovic, P. V. and Heald, S. M. and Gamelin, D. R.},
+   title = {Low-temperature activation and deactivation of high-Curie-temperature ferromagnetism in a new diluted magnetic semiconductor: Ni2+-doped SnO2},
+   journal = {Journal of the American Chemical Society},
+   volume = {127},
+   number = {41},
+   pages = {14479-14487},
+   year = {2005}
+}
+
+@article{
+   author = {Tuan, A. C. and Bryan, J. D. and Pakhomov, A. B. and Shutthanandan, V. and Thevuthasan, S. and McCready, D. E. and Gaspar, D. and Engelhard, M. H. and Rogers, J. W. and Krishnan, K. and Gamelin, D. R. and Chambers, S. A.},
+   title = {Epitaxial growth and properties of cobalt-doped ZnO on alpha-Al2O3 single-crystal substrates},
+   journal = {Physical Review B},
+   volume = {70},
+   number = {5},
+   year = {2004}
+}
+
+@article{
+   author = {Schwartz, D. A. and Kittilstved, K. R. and Gamelin, D. R.},
+   title = {Above-room-temperature ferromagnetic Ni2+-doped ZnO thin films prepared from colloidal diluted magnetic semiconductor quantum dots},
+   journal = {Applied Physics Letters},
+   volume = {85},
+   number = {8},
+   pages = {1395-1397},
+   year = {2004}
+}
+
+@article{
+   author = {Schwartz, D. A. and Gamelin, D. R.},
+   title = {Reversible 300 K ferromagnetic ordering in a diluted magnetic semiconductor},
+   journal = {Advanced Materials},
+   volume = {16},
+   number = {23-24},
+   pages = {2115-+},
+   year = {2004}
+}
+
+@article{
+   author = {Norberg, N. S. and Kittilstved, K. R. and Amonette, J. E. and Kukkadapu, R. K. and Schwartz, D. A. and Gamelin, D. R.},
+   title = {Synthesis of colloidal Mn2+: ZnO quantum dots and high-Tc ferromagnetic nanocrystalline thin films},
+   journal = {Journal of the American Chemical Society},
+   volume = {126},
+   number = {30},
+   pages = {9387-9398},
+   year = {2004}
+}
+
+@article{
+   author = {Bryan, J. D. and Heald, S. M. and Chambers, S. A. and Gamelin, D. R.},
+   title = {Strong room-temperature ferromagnetism in Co2+-doped TiO2 made from colloidal nanocrystals},
+   journal = {Journal of the American Chemical Society},
+   volume = {126},
+   number = {37},
+   pages = {11640-11647},
+   year = {2004}
+}
+
+@article{
+   author = {Schwartz, D. A. and Norberg, N. S. and Nguyen, Q. P. and Parker, J. M. and Gamelin, D. R.},
+   title = {Magnetic quantum dots: Synthesis, spectroscopy, and magnetism of CO2+- and Ni2+-doped ZnO nanocrystals},
+   journal = {Journal of the American Chemical Society},
+   volume = {125},
+   number = {43},
+   pages = {13205-13218},
+   year = {2003}
+}
+
+@article{
+   author = {Radovanovic, P. V. and Gamelin, D. R.},
+   title = {High-temperature ferromagnetism in Ni2+-doped ZnO aggregates prepared from colloidal diluted magnetic semiconductor quantum dots},
+   journal = {Physical Review Letters},
+   volume = {91},
+   number = {15},
+   year = {2003}
+}
+
+@article{
+   author = {Radovanovic, P. V. and Norberg, N. S. and McNally, K. E. and Gamelin, D. R.},
+   title = {Colloidal transition-metal-doped ZnO quantum dots},
+   journal = {Journal of the American Chemical Society},
+   volume = {124},
+   number = {51},
+   pages = {15192-15193},
+   year = {2002}
+}
+
+@article{
+   author = {Radovanovic, P. V. and Gamelin, D. R.},
+   title = {Electronic absorption spectroscopy of cobalt ions in diluted magnetic semiconductor quantum dots: Demonstration of an isocrystalline core/shell synthetic method},
+   journal = {Journal of the American Chemical Society},
+   volume = {123},
+   number = {49},
+   pages = {12207-12214},
+   year = {2001}
+}
+
+@article{
+   author = {Gamelin, D. R. and Gudel, H. U.},
+   title = {Upconversion processes in transition metal and rare earth metal systems},
+   journal = {Transition Metal and Rare Earth Compounds: Excited States, Transitions, Interactions Ii},
+   volume = {214},
+   pages = {1-56},
+   year = {2001}
+}
+
+@article{
+   author = {Wenger, O. S. and Gamelin, D. R. and Gudel, H. U. and Butashin, A. V. and Kaminskii, A. A.},
+   title = {Site-selective yellow to violet and near-infrared to green upconversion in BaLu2F8 : Nd3+},
+   journal = {Physical Review B},
+   volume = {61},
+   number = {24},
+   pages = {16530-16537},
+   year = {2000}
+}
+
+@article{
+   author = {Wenger, O. S. and Gamelin, D. R. and Gudel, H. U.},
+   title = {Chemical modification of transition metal upconversion properties: Exchange enhancement of Ni2+ upconversion rates in Ni2+: RbMnCl3},
+   journal = {Journal of the American Chemical Society},
+   volume = {122},
+   number = {30},
+   pages = {7408-7409},
+   year = {2000}
+}
+
+@article{
+   author = {Randall, D. W. and Gamelin, D. R. and LaCroix, L. B. and Solomon, E. I.},
+   title = {Electronic structure contributions to electron transfer in blue Cu and Cu-A},
+   journal = {Journal of Biological Inorganic Chemistry},
+   volume = {5},
+   number = {1},
+   pages = {16-29},
+   year = {2000}
+}
+
+@article{
+   author = {Pollnau, M. and Gamelin, D. R. and Luthi, S. R. and Gudel, H. U. and Hehlen, M. P.},
+   title = {Power dependence of upconversion luminescence in lanthanide and transition-metal-ion systems},
+   journal = {Physical Review B},
+   volume = {61},
+   number = {5},
+   pages = {3337-3346},
+   year = {2000}
+}
+
+@article{
+   author = {Gamelin, D. R. and Luthi, S. R. and Gudel, H. U.},
+   title = {The role of laser heating in the intrinsic optical bistability of Yb3+-doped bromide lattices},
+   journal = {Journal of Physical Chemistry B},
+   volume = {104},
+   number = {47},
+   pages = {11045-11057},
+   year = {2000}
+}
+
+@article{
+   author = {Gamelin, D. R. and Gudel, H. U.},
+   title = {Design of luminescent inorganic materials: New photophysical processes studied by optical spectroscopy},
+   journal = {Accounts of Chemical Research},
+   volume = {33},
+   number = {4},
+   pages = {235-242},
+   year = {2000}
+}
+
+@article{
+   author = {Gamelin, D. R. and Gudel, H. U.},
+   title = {Excited-state dynamics and sequential two-photon upconversion excitation of Mo3+-doped chloro- and bromo-elpasolites},
+   journal = {Journal of Physical Chemistry B},
+   volume = {104},
+   number = {44},
+   pages = {10222-10234},
+   year = {2000}
+}
+
+@article{
+   author = {Brunold, T. C. and Gamelin, D. R. and Solomon, E. I.},
+   title = {Excited-state exchange coupling in bent Mn(III)-O-Mn(III) complexes: Dominance of the pi/sigma superexchange pathway and its possible contributions to the reactivities of binuclear metalloproteins},
+   journal = {Journal of the American Chemical Society},
+   volume = {122},
+   number = {35},
+   pages = {8511-8523},
+   year = {2000}
+}
+
+@article{
+   author = {Wenger, O. S. and Gamelin, D. R. and Gudel, H. U. and Butashin, A. V. and Kaminskii, A. A.},
+   title = {Site-selective optical spectroscopy and upconversion mechanisms of the laser material BaLu2F8 : Er3+},
+   journal = {Physical Review B},
+   volume = {60},
+   number = {8},
+   pages = {5312-5320},
+   year = {1999}
+}
+
+@article{
+   author = {Gamelin, D. R. and Wermuth, M. and Gudel, H. U.},
+   title = {Up-conversion processes of 5d transition metal ions in crystals},
+   journal = {Journal of Luminescence},
+   volume = {83-4},
+   pages = {405-410},
+   note = {12th International Conference on Dynamical Proceesses in Excited States of Solids (DPC 99)
+May 23-27, 1999
+Humacao, puerto rico
+Puerto Rico ESPCoR Off; Natl Sci Fdn; Amer Assoc Advancement Sci; Univ Puerto Rico Rio Piedras; Univ Puerto Rico Mayaguez; Spectra Phys Lasers Inc; Elsevier Sci},
+   year = {1999}
+}
+
+@article{
+   author = {Gamelin, D. R. and Gudel, H. U.},
+   title = {Spectroscopy and dynamics of Re4+ near-IR-to-visible luminescence upconversion},
+   journal = {Inorganic Chemistry},
+   volume = {38},
+   number = {22},
+   pages = {5154-5164},
+   year = {1999}
+}
+
+@article{
+   author = {Hay, M. T. and Ang, M. C. and Gamelin, D. R. and Solomon, E. I. and Antholine, W. E. and Ralle, M. and Blackburn, N. J. and Massey, P. D. and Wang, X. T. and Kwon, A. H. and Lu, Y.},
+   title = {Spectroscopic characterization of an engineered purple Cu-A center in azurin},
+   journal = {Inorganic Chemistry},
+   volume = {37},
+   number = {2},
+   pages = {191-198},
+   year = {1998}
+}
+
+@article{
+   author = {Gamelin, D. R. and Randall, D. W. and Hay, M. T. and Houser, R. P. and Mulder, T. C. and Canters, G. W. and de Vries, S. and Tolman, W. B. and Lu, Y. and Solomon, E. I.},
+   title = {Spectroscopy of mixed-valence Cu-A-type centers: Ligand-field control of ground-state properties related to electron transfer},
+   journal = {Journal of the American Chemical Society},
+   volume = {120},
+   number = {21},
+   pages = {5246-5263},
+   year = {1998}
+}
+
+@article{
+   author = {Gamelin, D. R. and Gudel, H. U.},
+   title = {Two-photon spectroscopy of d(3) transition metals: Near-IR-to-visible upconversion luminescence by Re4+ and Mo3+},
+   journal = {Journal of the American Chemical Society},
+   volume = {120},
+   number = {46},
+   pages = {12143-12144},
+   year = {1998}
+}
+
+@article{
+   author = {Brunold, T. C. and Gamelin, D. R. and Stemmler, T. L. and Mandal, S. K. and Armstrong, W. H. and Penner-Hahn, J. E. and Solomon, E. I.},
+   title = {Spectroscopic studies of oxidized manganese catalase and mu-oxo-bridged dimanganese(III) model complexes: Electronic structure of the active site and its relation to catalysis},
+   journal = {Journal of the American Chemical Society},
+   volume = {120},
+   number = {34},
+   pages = {8724-8738},
+   year = {1998}
+}
+
+@article{
+   author = {Williams, K. R. and Gamelin, D. R. and LaCroix, L. B. and Houser, R. P. and Tolman, W. B. and Mulder, T. C. and deVries, S. and Hedman, B. and Hodgson, K. O. and Solomon, E. I.},
+   title = {Influence of copper-sulfur covalency and copper-copper bonding on valence delocalization and electron transfer in the Cu-A site of cytochrome c oxidase},
+   journal = {Journal of the American Chemical Society},
+   volume = {119},
+   number = {3},
+   pages = {613-614},
+   year = {1997}
+}
+
+@article{
+   author = {Gamelin, D. R. and Williams, K. R. and LaCroix, L. B. and Houser, R. P. and Tolman, W. B. and Mulder, T. C. and deVries, S. and Ang, M. and Lu, Y. and Hedman, B. and Hodgson, K. O. and Solomon, E. I.},
+   title = {Electronic structure of Cu-A-type centers in cytochrome c oxidase, blue-copper mutants, and related model complexes},
+   journal = {Abstracts of Papers of the American Chemical Society},
+   volume = {213},
+   pages = {758-INOR},
+   note = {2},
+   year = {1997}
+}
+
+@article{
+   author = {Gamelin, D. R. and Bominaar, E. L. and Mathoniere, C. and Kirk, M. L. and Wieghardt, K. and Girerd, J. J. and Solomon, E. I.},
+   title = {Excited-state distortions and electron delocalization in mixed-valence dimers: Vibronic analysis of the near-IR absorption and resonance Raman profiles of Fe-2(OH)(3)(tmtacn)(2) (2+)},
+   journal = {Inorganic Chemistry},
+   volume = {35},
+   number = {15},
+   pages = {4323-4335},
+   year = {1996}
+}
+
+@article{
+   author = {Gamelin, D. R. and Bominaar, E. L. and Kirk, M. L. and Wieghardt, K. and Solomon, E. I.},
+   title = {Excited-state contributions to ground-state properties of mixed-valence dimers: Spectral and electronic-structural studies of Fe-2(OH)(3)(tmtacn)(2) (2+) related to the Fe2S2 (+) active sites of plant-type ferredoxins},
+   journal = {Journal of the American Chemical Society},
+   volume = {118},
+   number = {34},
+   pages = {8085-8097},
+   year = {1996}
+}
+
+@article{
+   author = {Solomon, E. I. and Kirk, M. L. and Gamelin, D. R. and Pulver, S.},
+   title = {BIOINORGANIC SPECTROSCOPY},
+   journal = {Biochemical Spectroscopy},
+   volume = {246},
+   pages = {71-110},
+   year = {1995}
+}
+
+@article{
+   author = {Gamelin, D. R. and Kirk, M. L. and Stemmler, T. L. and Pal, S. and Armstrong, W. H. and Pennerhahn, J. E. and Solomon, E. I.},
+   title = {ELECTRONIC-STRUCTURE AND SPECTROSCOPY OF MANGANESE CATALASE AND DI-MU-OXO MN(III)MN(IV) MODEL COMPLEXES},
+   journal = {Journal of the American Chemical Society},
+   volume = {116},
+   number = {6},
+   pages = {2392-2399},
+   year = {1994}
+}
+
+@article{
+   author = {Gamelin, D. R. and George, M. W. and Glyn, P. and Grevels, F. W. and Johnson, F. P. A. and Klotzbucher, W. and Morrison, S. L. and Russell, G. and Schaffner, K. and Turner, J. J.},
+   title = {STRUCTURAL INVESTIGATION OF THE GROUND AND EXCITED-STATES OF CIRE(CO)3(4,4'-BIPYRIDYL)2 USING VIBRATIONAL SPECTROSCOPY},
+   journal = {Inorganic Chemistry},
+   volume = {33},
+   number = {15},
+   pages = {3246-3250},
+   year = {1994}
+}
+

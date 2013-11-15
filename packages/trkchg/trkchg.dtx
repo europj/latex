@@ -1,0 +1,360 @@
+% \iffalse meta-comment
+%
+% trkchg --- Track changes document editing
+% 
+% Copyright (C) 2013 by Joseph W. May <jwmay@uw.edu>
+% Li Research Group --- University of Washington
+%
+% -----------------------------------------------------------------------------------------
+%
+% This file may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License, either version 1.2
+% of this license or (at your option) any later version.
+% The latest version of this license is in:
+%
+% http://www.latex-project.org/lppl.txt
+%
+% and version 1.2 or later is part of all distributions of LaTeX
+% version 1999/12/01 or later.
+%
+% \fi
+%
+% \iffalse
+%<package>\NeedsTeXFormat{LaTeX2e}[1999/12/01]
+%<package>\ProvidesPackage{trkchg}
+%<package> [2013/07/10 v1.2 Track changes document editing]
+%
+%<*driver>
+\documentclass{ltxdoc}
+\usepackage{trkchg}
+\usepackage{color}
+\usepackage[numbered]{hypdoc}
+\EnableCrossrefs
+\CodelineIndex
+\RecordChanges
+\begin{document}
+  \DocInput{trkchg.dtx}
+\end{document}
+%</driver>
+% \fi
+%
+% \CheckSum{125}
+%
+% \CharacterTable
+%  {Upper-case \A\B\C\D\E\F\G\H\I\J\K\L\M\N\O\P\Q\R\S\T\U\V\W\X\Y\Z
+%   Lower-case \a\b\c\d\e\f\g\h\i\j\k\l\m\n\o\p\q\r\s\t\u\v\w\x\y\z
+%   Digits \0\1\2\3\4\5\6\7\8\9
+%   Exclamation \!    Double quote \"     Hash (number) \#
+%   Dollar \$         Percent \%          Ampersand \&
+%   Acute accent \'   Left paren \(       Right paren \)
+%   Asterisk \*       Plus \+             Comma \,
+%   Minus \-          Point \.            Solidus \/
+%   Colon \:          Semicolon \;        Less than \<
+%   Equals \=         Greater than \>     Question mark \?
+%   Commercial at \@  Left bracket \[     Backslash \\
+%   Right bracket \]  Circumflex \^       Underscore \_
+%   Grave accent \`   Left brace \{       Vertical bar \|
+%   Right brace \}    Tilde \~}
+%
+%
+% \changes{v1.1}{2013/02/14}{added info on \texttt{\textbackslash todo} command in the documentation}
+% \changes{v1.0}{2012/09/28}{Initial version}
+%
+% \GetFileInfo{trkchg.sty}
+%
+% \DoNotIndex{\#,\$,\%,\&,\@,\\,\{,\},\^,\_,\~,\ }
+% \DoNotIndex{\@one}
+% \DoNotIndex{\advance,\begingroup,\catcode,\closein}
+% \DoNotIndex{\closeout,\day,\def,\edef,\else,\empty,\endgroup}
+% \DoNotIndex{\fi,\ifthenelse,\ignorespaces,\NeedsTeXFormat,\newboolean,\newcommand,\small,\setboolean,\scriptsize}
+%
+% \newcommand{\code}[2]{\begin{quote} \small{\texttt{$\backslash$#1}#2} \end{quote}}
+% \renewcommand{\cmd}[1]{\texttt{$\backslash$#1}}
+% \newcommand{\pkg}[1]{\textsf{#1}}
+%
+% \title{The \textsf{trkchg} package\thanks{This document
+% corresponds to \pkg{trkchg}~\fileversion,
+% dated \filedate.}}
+% \author{Joseph W. May \\ \texttt{jwmay@uw.edu}}
+%
+% \maketitle
+%
+% \begin{abstract}
+%   This package provides a set of document editing commands for tracking
+%   changes including inserting, removing, and changing text in a \LaTeX{} document
+%   such that these changes appear in the compiled document.  Comment commands
+%   are also provided for inserting easy to identify in-text comments.
+% \end{abstract}
+%
+% \tableofcontents
+%
+% \section{Introduction}
+%
+% Document editing between multiple authors can be difficult in \LaTeX{} due
+% to an inability to track changes between two versions.  This package provides a set of
+% document editing commands to be used for highlighting changes made to a \LaTeX{} document.
+% Commands are created for inserting, removing, and changing text as well as for adding comments.
+% These changes are emphasized in the compiled form of the document using colored, underlined,
+% and strikedthrough text for easy readability.  Options to display the original and final forms of the document
+% quickly remove these editing marks and comments to display the original form of the document without
+% any edits or to display the final form of the document accepting all changes made.
+% 
+% \section{Using the \pkg{trkchg} Package}
+%
+% \subsection{Loading the Package}
+%
+% The |trkchg| package is loaded in the usual way
+% \code{usepackage}{\oarg{options}\texttt{\{trkchg\}}}
+% where the \meta{options} are described in Section \ref{sec:ops}.
+%
+% \subsection{Package Commands}
+% The package commands are described before the package options in an attempt
+% to make the discussion of the options more clear. All of the editing commands are to
+% be used in the \LaTeX{} source code; when the document is compiled, the commands
+% will highlight the changes made to the document.
+%
+% For document editing purposes the following commands are provided: \DescribeMacro{\ins}\DescribeMacro{\rem}\DescribeMacro{\ch}\DescribeMacro{\rp}\DescribeMacro{\co}\DescribeMacro{\todo}
+% \begin{table}[h]
+%	\begin{center}
+%	\vspace{-12pt}
+%	\caption{\LaTeX{} document editing commands provided by the \pkg{trkchg} package.}
+%	\vspace{4pt}
+%	\begin{tabular}{lll}
+%		\hline
+%		\textbf{Edit Type} & \textbf{Command} & \textbf{Format} \\
+%		\hline
+%		Insert & |\ins|\marg{text} & \ins{Insert this text} \\[4pt]
+%		Remove & |\rem|\marg{text} & \rem{Delete this text} \\[4pt]
+%		Change & |\ch|\marg{old text}\marg{new text} & Change \ch{this to}{this} \\[4pt]
+%		Rephrase & |\rp|\marg{text} & \rp{Rephrase this text} \\[4pt]		
+%		User Comment & |\co|\marg{text} & \co{add a comment} \\[4pt]
+%		General Comment & |\todo|\marg{text} & \todo{add a comment} \\[4pt]
+%		\hline
+%	\end{tabular}
+%	\label{tab:commands}
+%	\end{center}
+%	\vspace{-24pt}
+% \end{table}
+%
+% \subsection{Package Options}\label{sec:ops}
+%
+% The \DescribeMacro{user} |user| option sets the initials
+% of the individual editing the document. These initials will appear alongside
+% any comments made in the document using the |\co| comment command.
+% If no user is specified, the letters NA will appear alongside any comments.
+% The \DescribeMacro{color} |color| option is used to set the color edits and
+% comments are displayed in; the default is orange.  The \pkg{trkchg} package
+% uses the \pkg{xcolor} package with the dvipsnames option allowing users to
+% specify, by name, \href{http://en.wikibooks.org/wiki/LaTeX/Colors#The_68_standard_colors_known_to_dvips}
+% {one of 68 standard color choices known to dvips.}  The implementation will thus generally appear as
+% \code{usepackage}{\texttt{[user=}\meta{initials}\texttt{,color=}\meta{color}\texttt{]\{trkchg\}} .}
+%
+% By default, the \pkg{trkchg} package shows the compiled document with
+% all track changes markup and user comments.  The markup can be hidden and the
+% original document shown using the \DescribeMacro{original} |original| option. Alternatively,
+% the final document, accepting all changes, can be displayed using the \DescribeMacro{final} |final| option.
+%
+% A few other commands are provided to control what type of markup is displayed.  User comments can be hidden by
+% specifying \DescribeMacro{hidecomments} |hidecomments|.  The todo comments can be hidden by specifying
+% \DescribeMacro{hidetodo} |hidetodo|.
+%
+% \StopEventually{\PrintChanges\PrintIndex}
+%
+% \section{Implementation}
+%
+% \subsection{Identification and Option Setup}
+%
+% Package identification.
+%    \begin{macrocode}
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{trkchg}[2013/07/10 v1.2 Track changes]
+%    \end{macrocode}
+%
+% \noindent The required packages for typesetting the track changes output are loaded.
+% The \pkg{kvoptions} package allows user-specified options to be processed.  The \pkg{ifthen}
+% package is used to control track changes output based on user-specified options.
+% The \pkg{amsmath} and \pkg{amssymb} packages are required for formatting the
+% change, comment, and todo commands.  The \pkg{xcolor} package is used to allow
+% users to input, by name, one of 68 color choices for the track changes output.  The
+% \pkg{ulem} package allows for various text underline and strikethrough styles for track
+% changes output.
+%
+%    \begin{macrocode}
+\RequirePackage{kvoptions}
+\RequirePackage{ifthen}
+\RequirePackage{amsmath}
+\RequirePackage{amssymb}
+\RequirePackage[dvipsnames]{xcolor}
+\RequirePackage[normalem]{ulem}
+%    \end{macrocode}
+%
+% \noindent Boolean variables, as part of the \pkg{kvoptions} package, are defined to allow the user
+% to control the track changes output.
+%
+%    \begin{macrocode}
+\SetupKeyvalOptions{%
+	family=trkchg,%
+	prefix=trkchg@}
+\DeclareBoolOption{original}
+\DeclareBoolOption{final}
+\DeclareBoolOption{hidecomments}
+\DeclareBoolOption{hidetodo}
+\DeclareStringOption[NA]{user}
+\DeclareStringOption[orange]{color}
+\ProcessKeyvalOptions{trkchg}
+%    \end{macrocode}
+%
+% \noindent Boolean variables, as part of the \pkg{ifthen} package, are defined to control display of
+% track changes output; default values are set.
+%
+%    \begin{macrocode}
+\newboolean{showcomments}
+\newboolean{showtodo}
+\newboolean{showoriginal}
+\newboolean{showfinal}
+\setboolean{showcomments}{true}
+\setboolean{showtodo}{true}
+\setboolean{showoriginal}{false}
+\setboolean{showfinal}{false}
+%    \end{macrocode}
+%
+% \subsection{Track Changes Output Control}
+%
+% \noindent The if-then-else block is setup to control the track changes output based on
+% user-specified options.  The commands are defined to behave differently based on
+% whether the original or final version of the document is to be compiled, otherwise,
+% show the document with the track changes markup.
+%
+%    \begin{macrocode}
+\iftrkchg@original
+	\setboolean{showcomments}{false}
+	\setboolean{showtodo}{false}
+	\setboolean{showoriginal}{true}
+	\setboolean{showfinal}{false}
+\else
+	\iftrkchg@final
+		\setboolean{showcomments}{false}
+		\setboolean{showtodo}{false}
+		\setboolean{showoriginal}{false}
+		\setboolean{showfinal}{true}
+	\else
+		\setboolean{showcomments}{true}
+		\setboolean{showtodo}{true}
+		\setboolean{showoriginal}{false}
+		\setboolean{showfinal}{false}
+	\fi
+\fi
+%    \end{macrocode}
+%
+% \noindent If statements to control the output of user and todo comments.
+%
+%    \begin{macrocode}
+\iftrkchg@hidecomments
+	\setboolean{showcomments}{false}
+\fi
+\iftrkchg@hidetodo
+	\setboolean{showtodo}{false}
+\fi
+%    \end{macrocode}
+%
+% \subsection{Macro Definitions}
+%
+% \begin{macro}{\usrcolor}
+% The |\usrcolor| macro is an internal command for applying the user-specified color
+% to the output of the track changes editing commands.
+%    \begin{macrocode}
+\newcommand{\usrcolor}[1]{{\color{\trkchg@color}#1}}
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\showbx}
+% The |\showbx| macro is an internal command for creating the label and triangular
+% enclosure for the comment and todo commands.\footnote{Code for the showbx command
+% taken from \href{https://www.iam.unibe.ch/scg/svn_repos/scgbib/LatexTemplates/scgPaper.tex}
+% {the SCG Wiki}.}
+%    \begin{macrocode}
+\newcommand{\showbx}[3]{{\colorbox{#3}{\bfseries\sffamily\scriptsize%
+\textcolor{white}{#1}}}{\textcolor{#3}{\sf\small$\blacktriangleright$%
+\textit{#2}$\blacktriangleleft$}}}
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\co}
+% The comment command is defined using the showbx and usrcolor commands 
+% based on whether or not comments are to be shown.
+%    \begin{macrocode}
+\ifthenelse{\boolean{showcomments}}{
+	\newcommand{\co}[1]{\showbx{\trkchg@user}{#1}{\trkchg@color}}
+}{
+	\newcommand{\co}[1]{\ignorespaces}
+}
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\todo}
+% The todo command is defined using the showbx command based on whether
+% or not todo comments are to be shown.
+%    \begin{macrocode}
+\ifthenelse{\boolean{showtodo}}{
+	\newcommand{\todo}[1]{\showbx{TO DO}{#1}{blue}}
+}{
+	\newcommand{\todo}[1]{\ignorespaces}
+}
+%    \end{macrocode}
+% \end{macro}
+%
+% \begin{macro}{\rp}
+% \changes{v1.1}{2013/02/14}{command changed from \texttt{\textbackslash uh}}
+% \begin{macro}{\ins}
+% \changes{v1.2}{2013/07/10}{command changed from \texttt{\textbackslash in} for compatibility with the \texttt{amssymb} package}
+% \begin{macro}{\rem}
+% \changes{v1.2}{2013/07/10}{command changed from \texttt{\textbackslash rm} to avoid conflict with \LaTeX~command}
+% \begin{macro}{\ch}
+% The track changes commands are defined based on whether the original or final document
+% is to be shown.  Otherwise, the track changes markup is shown.\footnote{Inspiration for these
+% commands came from the \href{https://www.iam.unibe.ch/scg/svn_repos/scgbib/LatexTemplates/scgPaper.tex}
+% {SCG Wiki}.}
+%    \begin{macrocode}
+\ifthenelse{\boolean{showoriginal}}{
+	\newcommand{\rp}[1]{#1}
+	\newcommand{\ins}[1]{\ignorespaces}
+	\newcommand{\rem}[1]{#1}
+	\newcommand{\ch}[2]{#1}
+}{
+	\ifthenelse{\boolean{showfinal}}{
+		\newcommand{\rp}[1]{#1}
+		\newcommand{\ins}[1]{#1}
+		\newcommand{\rem}[1]{\ignorespaces}
+		\newcommand{\ch}[2]{#2}
+	}{
+		\newcommand{\rp}[1]{\usrcolor{\uwave{#1}}}
+		\newcommand{\ins}[1]{\usrcolor{\uline{#1}}}
+		\newcommand{\rem}[1]{\usrcolor{\sout{#1}}}
+		\newcommand{\ch}[2]{\textcolor{red}%
+		{\sout{#1}}{$~\boldsymbol{\rightarrow}~$}\usrcolor{\uline{#2}}}
+	}
+}
+%    \end{macrocode}
+% \end{macro}
+% \end{macro}
+% \end{macro}
+% \end{macro}
+%
+% \section{Compatibility and Known Issues}
+%The track changes commands do not work in any mathematics environment (i.e., equation,
+% eqnarray, etc.).  The track changes command have been successfully tested for editing table
+% and figure captions using the \pkg{caption} and \pkg{subcaption} packages.
+%
+% \DescribeMacro{\rem} Use of the |\rem| command around the |\cref| command
+% may produce a few errors during compiling. Just press enter to ignore these errors and the
+% document should compile correctly.  All track changes commands work without error with
+% the standard \LaTeX{} |\ref| command.
+%
+% The options currently supported by the \pkg{trkchg} package only allow for the original document
+% or final document, accepting all changes, to be displayed.  For selective display of changes made
+% to a document, the user will have to manually remove/modify the edits directly in the \LaTeX{} source
+% code.  Currently underway is development on a script to analyze the source code for the \pkg{trkchg}
+% commands, allowing a user to quickly accept or reject changes made to the document.
+%
+% \Finale
+\endinput
