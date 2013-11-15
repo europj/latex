@@ -80,7 +80,7 @@ file for installation instructions. The .pdf file included in the folder
 contains information about the package and how to use the package.
 
 
-### trkchg ###
+#### trkchg ####
 
 The trkchg package provides a set of commands for tracking changes in a LaTeX
 document. The commands produce easy-to-read markup in the compiled document.
