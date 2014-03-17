@@ -30,7 +30,7 @@
 % For a list of journal types for the journal option below, see the table at
 % the end of this document.
 %-------------------------------------------------------------------------------
-\documentclass[english,journal=jctcce,etalmode=truncate,maxauthors=0]{achemso}
+\documentclass[english,journal=jctcce,manuscript=article,etalmode=truncate,maxauthors=0]{achemso}
 \setkeys{acs}{etalmode=truncate,maxauthors=0}
 
 % PACKAGES
@@ -71,7 +71,7 @@
 \crefname{section}{Sec.}{Secs.}
 \Crefname{section}{Section}{Sections}
 
-% USER-DEFINED COMMANDS
+% CUSTOM LI GROUP COMMANDS
 %
 % General / Formatting
 \newcommand{\bd}[1]{\textbf{#1}} % bold text
@@ -127,6 +127,11 @@
 %-------------------------------------------------------------------------------
 % TITLE AND AUTHOR LIST
 %-------------------------------------------------------------------------------
+%
+% The document title should be given as usual.  Some journals require
+% a running title from the author: this should be supplied as an
+% optional argument to \title.
+%
 % Each author should be given as a separate \author command.
 %
 % Corresponding authors should have an e-mail given after the author
@@ -268,6 +273,20 @@ separate page at the end of the document.
 % FLOATS: FIGURES AND TABLES
 %
 % *** REMOVE THIS SECTION BEFORE SUBMITTING PAPER ***
+%
+% This section shows examples for formatting figures and tables in LaTeX.  Use
+% these examples to format your figures in the text when writing a manuscript.
+%
+% FROM THE ACS
+% (http://http://pubs.acs.org/paragonplus/submission/jpchax/jpchax_authguide.pdf)
+%   "All figures must be mentioned in the text in consecutive order
+%    and must be numbered with Arabic numbers. Each figure should be
+%    embedded in the manuscript following the first reference to the
+%    figure. If symbols are used, it is preferable to place a key in
+%    the artwork itself, not in the caption. Ensure that any symbols
+%    and abbreviations used in the text agree with those in the figures.
+%    See more detailed information on submission of graphics under
+%    Artwork below." 
 %
 %===============================================================================
 \newpage
